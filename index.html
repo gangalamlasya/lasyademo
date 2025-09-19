@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartBottle X - Stay Hydrated. Stay Fresh.</title>
+  <style>
+    /* ---------- GLOBAL STYLES ---------- */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #222;
+    }
+    h1, h2, h3 {
+      margin: 0 0 15px;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+    button {
+      background: #06b6d4;
+      border: none;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #3b82f6;
+    }
+
+    /* ---------- NAVBAR ---------- */
+    nav {
+      background: #fff;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #222;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #06b6d4;
+    }
+
+    /* ---------- HERO ---------- */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 0;
+      background: linear-gradient(120deg, #06b6d4, #3b82f6);
+      color: #fff;
+      flex-wrap: wrap;
+    }
+    .hero-text {
+      flex: 1;
+      padding: 20px;
+    }
+    .hero-text h1 {
+      font-size: 3rem;
+    }
+    .hero img {
+      flex: 1;
+      max-width: 400px;
+      border-radius: 15px;
+    }
+
+    /* ---------- FEATURES ---------- */
+    .features {
+      padding: 60px 0;
+      text-align: center;
+      background: #fff;
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .feature {
+      background: #f0f8ff;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    /* ---------- BENEFITS & COMPARISON ---------- */
+    .comparison {
+      padding: 60px 0;
+      background: #eaf7fb;
+    }
+    .comparison table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .comparison th, .comparison td {
+      padding: 15px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    .comparison th {
+      background: #06b6d4;
+      color: #fff;
+    }
+
+    /* ---------- PRICING ---------- */
+    .pricing {
+      padding: 60px 0;
+      text-align: center;
+      background: #fff;
+    }
+    .price-box {
+      background: #f0f8ff;
+      padding: 30px;
+      border-radius: 15px;
+      display: inline-block;
+    }
+    .price-box h3 {
+      font-size: 2rem;
+      color: #06b6d4;
+    }
+
+    /* ---------- BLOGS ---------- */
+    .blogs {
+      padding: 60px 0;
+      background: #f9f9f9;
+    }
+    .blogs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .blog {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* ---------- FAQ ---------- */
+    .faq {
+      padding: 60px 0;
+      background: #fff;
+    }
+    details {
+      margin: 10px 0;
+      background: #f0f8ff;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    /* ---------- REVIEWS ---------- */
+    .reviews {
+      padding: 60px 0;
+      background: #eaf7fb;
+      text-align: center;
+    }
+    .review {
+      margin: 20px auto;
+      max-width: 500px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    /* ---------- FOOTER CTA ---------- */
+    footer {
+      background: #3b82f6;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="container">
+      <h2>SmartBottle X</h2>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#comparison">Comparison</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#faq">FAQs</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+      <button>Order Now</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Stay Hydrated. Stay Fresh.</h1>
+      <p>The SmartBottle X tracks your hydration, keeps your drink at the right temperature, and reminds you to stay healthy every day.</p>
+      <button>Buy Today</button>
+    </div>
+    <img src="Gemini_Generated_Image_j4c5r5j4c5r5j4c5.png" alt="SmartBottle X">
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features container" id="features">
+    <h2>Features</h2>
+    <div class="features-grid">
+      <div class="feature">💧 Leak-Proof Design</div>
+      <div class="feature">🌱 Eco-Friendly Materials</div>
+      <div class="feature">🌡️ Temperature Control</div>
+      <div class="feature">🔋 Smart Battery Indicator</div>
+      <div class="feature">📱 App Connectivity</div>
+      <div class="feature">⏰ Hydration Reminders</div>
+    </div>
+  </section>
+
+  <!-- BENEFITS & COMPARISON -->
+  <section class="comparison container" id="comparison">
+    <h2>Why SmartBottle X?</h2>
+    <table>
+      <tr>
+        <th>Feature</th>
+        <th>SmartBottle X</th>
+        <th>Normal Bottle</th>
+      </tr>
+      <tr>
+        <td>Temperature Control</td>
+        <td>✅ Yes</td>
+        <td>❌ No</td>
+      </tr>
+      <tr>
+        <td>Hydration Tracking</td>
+        <td>✅ Yes</td>
+        <td>❌ No</td>
+      </tr>
+      <tr>
+        <td>Eco-Friendly</td>
+        <td>✅ Made from recycled materials</td>
+        <td>❌ Plastic waste</td>
+      </tr>
+      <tr>
+        <td>Smart Alerts</td>
+        <td>✅ App reminders</td>
+        <td>❌ None</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <h2>Pricing</h2>
+    <div class="price-box">
+      <h3>$49.99</h3>
+      <p>Capacity: 750ml</p>
+      <p>✔️ Free App Connectivity</p>
+      <p>✔️ 1-Year Warranty</p>
+      <button>Order Now</button>
+    </div>
+  </section>
+
+  <!-- BLOGS -->
+  <section class="blogs container" id="blogs">
+    <h2>Our Blogs</h2>
+    <div class="blogs-grid">
+      <div class="blog">
+        <h3>5 Tips for Staying Hydrated</h3>
+        <p>Learn how to maintain proper hydration throughout the day with simple lifestyle changes.</p>
+      </div>
+      <div class="blog">
+        <h3>Why Smart Bottles are the Future</h3>
+        <p>Explore how technology is changing the way we drink water and care for our health.</p>
+      </div>
+      <div class="blog">
+        <h3>Eco-Friendly Living</h3>
+        <p>SmartBottle X is designed with sustainability in mind—learn how small changes make a big impact.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq container" id="faq">
+    <h2>FAQs</h2>
+    <details>
+      <summary>How long does the battery last?</summary>
+      <p>Up to 7 days on a single charge.</p>
+    </details>
+    <details>
+      <summary>Is the bottle dishwasher safe?</summary>
+      <p>The lid is electronic, so hand wash recommended. The body is dishwasher safe.</p>
+    </details>
+    <details>
+      <summary>Does it connect with smartphones?</summary>
+      <p>Yes, works with iOS and Android via our free app.</p>
+    </details>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review">
+      <strong>⭐️⭐️⭐️⭐️⭐️ - Sarah K.</strong>
+      <p>“Love my SmartBottle X! The hydration reminders keep me on track every day.”</p>
+    </div>
+    <div class="review">
+      <strong>⭐️⭐️⭐️⭐️ - David R.</strong>
+      <p>“Great quality and the battery lasts longer than I expected. Highly recommend.”</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <h2>Ready to stay fresh and hydrated?</h2>
+    <button>Buy SmartBottle X Now</button>
+  </footer>
+
+</body>
+</html>
